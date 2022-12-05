@@ -27,7 +27,7 @@ const KEY = 'F8OpHcQX4zWWiea6boAd6QRvTtj1ZUc9'
      $('.row').html('') //vaciar el contenedor del row
      arraysImg.forEach(img => {
         $('.row').append(`
-            <li class='card col-3'>
+            <li class='card col-3''>
                 <img src= ${img} alt="">
             </li>
        `)
